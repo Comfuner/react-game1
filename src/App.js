@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
 import './App.css';
-import Comp1 from "./Comp1";
+import Game from "./components/Game";
+
+
+
+
 
 class App extends Component {
-
   render() {
     return (
         <div>
-      <h1>hello</h1>
-      <Comp1 />
+            <Game/>
         </div>
     );
   }
